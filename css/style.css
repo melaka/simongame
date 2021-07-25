@@ -11,9 +11,10 @@ h1{
 }
 
 .btn{
-    height: 150px;
+     height: 150px;
     width: 150px;
-    margin: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
     border: 10px solid black;
     border-radius: 20%;
 }
