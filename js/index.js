@@ -20,7 +20,7 @@ var gameState=false;
 
 // Lisient to start game
 
-$(document).keypress(function()
+$("h1").click(function()
 {
   if(!gameState)
   {
@@ -77,7 +77,7 @@ $(".btn").click(function()
 
             PlaySounds("wrong")
 
-            $("h1").text("Game over, press any key to restart the game");
+            $("h1").text("Game over, Click here to restart the game");
              resetGame();
     }
        
